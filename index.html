@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo-Colony Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Neo-Colony Quiz</h1>
+      <form id="quiz-form">
+        <div class="question">
+          <h2>Dependence on Foreign Aid</h2>
+          <label>
+            <input type="radio" name="foreign-aid" value="4">More 70% of the national budget comes from foreign aid. </label>
+          <label>
+            <input type="radio" name="foreign-aid" value="3">The national budget relies on foreign aid between 50% and 70%. </label>
+          <label>
+            <input type="radio" name="foreign-aid" value="2">The national budget relies on foreign aid between 30% and 50%. </label>
+          <label>
+            <input type="radio" name="foreign-aid" value="1">Less than 30% of the national budget relies on foreign aid. </label>
+          <label>
+            <input type="radio" name="foreign-aid" value="0">There is no reliance on foreign aid. </label>
+        </div>
+        <div class="question">
+          <h2>Debt Dependence</h2>
+          <label>
+            <input type="radio" name="debt-dependence" value="5">More than 80% of national debt is owed to foreign entities. </label>
+          <label>
+            <input type="radio" name="debt-dependence" value="4">Between 60% and 80% of national debt is owed to foreign entities. </label>
+          <label>
+            <input type="radio" name="debt-dependence" value="3">Between 40% and 60% of national debt is owed to foreign entities. </label>
+          <label>
+            <input type="radio" name="debt-dependence" value="2">Between 20% and 40% of national debt is owed to foreign entities. </label>
+          <label>
+            <input type="radio" name="debt-dependence" value="1">Less than 20% of national debt is owed to foreign entities. </label>
+          <label>
+            <input type="radio" name="debt-dependence" value="0">There is no significant foreign debt. </label>
+        </div>
+        <div class="question">
+          <h2>Dominance of Foreign Corporations On Key Sectors</h2>
+          <label>
+            <input type="radio" name="foreign-corporations" value="4">Foreign corporations dominate over 75% of key sectors. </label>
+          <label>
+            <input type="radio" name="foreign-corporations" value="3">Foreign corporations dominate between 50% and 75% of key sectors. </label>
+          <label>
+            <input type="radio" name="foreign-corporations" value="2">Foreign corporations dominate between 30% and 50% of key sectors. </label>
+          <label>
+            <input type="radio" name="foreign-corporations" value="1">Foreign corporations have minimal presence in key sectors. </label>
+          <label>
+            <input type="radio" name="foreign-corporations" value="0">Domestic companies dominate key sectors entirely. </label>
+        </div>
+        <div class="question">
+          <h2>Currency Vulnerability</h2>
+          <label>
+            <input type="radio" name="currency-vulnerability" value="4">The national currency is pegged to a foreign currency. </label>
+          <label>
+            <input type="radio" name="currency-vulnerability" value="3">The national currency is heavily influenced by foreign exchange rates. </label>
+          <label>
+            <input type="radio" name="currency-vulnerability" value="2">The national currency shows some sensitivity to foreign currencies. </label>
+          <label>
+            <input type="radio" name="currency-vulnerability" value="1">The national currency is generally stable with minor influences. </label>
+          <label>
+            <input type="radio" name="currency-vulnerability" value="0">The national currency is largely independent of foreign currencies and/or backed by local resources only. </label>
+        </div>
+        <div class="question">
+          <h2>Land Ownership Concentration</h2>
+          <label>
+            <input type="radio" name="land-ownership" value="4">Over 70% of arable land is owned by foreign investors or corporations. </label>
+          <label>
+            <input type="radio" name="land-ownership" value="3">Between 50% and 70% of arable land is owned by foreign interests. </label>
+          <label>
+            <input type="radio" name="land-ownership" value="2">Between 30% and 50% of arable land is owned by foreign interests. </label>
+          <label>
+            <input type="radio" name="land-ownership" value="1">Between 10% and 30% of arable land is owned by foreign interests. </label>
+          <label>
+            <input type="radio" name="land-ownership" value="0">Most arable land is owned by local farmers and/or is distributed equitably among local communities. </label>
+        </div>
+        <div class="question">
+          <h2>Foreign Interference in Elections</h2>
+          <label>
+            <input type="radio" name="foreign-interference" value="4">Foreign entities have directly funded over 50% of the last election campaign. </label>
+          <label>
+            <input type="radio" name="foreign-interference" value="3">Foreign entities have funded between 30% and 50% of the last election campaign. </label>
+          <label>
+            <input type="radio" name="foreign-interference" value="2">Foreign entities have funded less than 30% of the last election campaign. </label>
+          <label>
+            <input type="radio" name="foreign-interference" value="1">Evidence of limited funding by foreign entities exists. </label>
+          <label>
+            <input type="radio" name="foreign-interference" value="0">Elections are fully funded by domestic sources. </label>
+        </div>
+        <div class="question">
+          <h2>Influence on Domestic Policy</h2>
+          <label>
+            <input type="radio" name="domestic-policy" value="4">Foreign governments have complete control over key domestic policies. </label>
+          <label>
+            <input type="radio" name="domestic-policy" value="3">Foreign governments have substantial influence over key domestic policies. </label>
+          <label>
+            <input type="radio" name="domestic-policy" value="2">Evidence suggests moderate foreign influence on domestic policies. </label>
+          <label>
+            <input type="radio" name="domestic-policy" value="1">There are minor indications of foreign influence. </label>
+          <label>
+            <input type="radio" name="domestic-policy" value="0">Domestic policies are created with no foreign influence. </label>
+        </div>
+        <div class="question">
+          <h2>Preservation of Language and Culture</h2>
+          <label>
+            <input type="radio" name="language-culture" value="4">The mainstream language and culture are fully foreign. </label>
+          <label>
+            <input type="radio" name="language-culture" value="3">Foreign languages and cultures dominate education and media. </label>
+          <label>
+            <input type="radio" name="language-culture" value="2">A significant emphasis on foreign languages and culture is noted. </label>
+          <label>
+            <input type="radio" name="language-culture" value="1">Both foreign and local languages/cultures are equally represented. </label>
+          <label>
+            <input type="radio" name="language-culture" value="0">Local culture is prioritized with minimal foreign influence. </label>
+        </div>
+        <div class="question">
+          <h2>Presence of Military Bases</h2>
+          <label>
+            <input type="radio" name="military-bases" value="4">Multiple foreign military bases are established and actively operated. </label>
+          <label>
+            <input type="radio" name="military-bases" value="3">A single foreign military base is present and operational. </label>
+          <label>
+            <input type="radio" name="military-bases" value="2">Negotiations are ongoing for potential foreign military presence. </label>
+          <label>
+            <input type="radio" name="military-bases" value="1">There are no foreign military bases, but foreign troops visit. </label>
+          <label>
+            <input type="radio" name="military-bases" value="0">There are no foreign military bases and independent defense is maintained. </label>
+        </div>
+        <div class="question">
+          <h2>Bilateral Agreements Favoring Foreign Interests</h2>
+          <label>
+            <input type="radio" name="bilateral-agreements" value="4">Most treaties disproportionately benefit foreign governments or corporations. </label>
+          <label>
+            <input type="radio" name="bilateral-agreements" value="3">Several treaties show signs of preferential treatment to foreign interests. </label>
+          <label>
+            <input type="radio" name="bilateral-agreements" value="2">Some treaties maintain a balance of benefits for both parties. </label>
+          <label>
+            <input type="radio" name="bilateral-agreements" value="1">Agreements are generally neutral with few foreign advantages. </label>
+          <label>
+            <input type="radio" name="bilateral-agreements" value="0">Most treaties favor domestic interests or there are no bilateral agreements. </label>
+        </div>
+        <div class="question">
+          <h2>Recognition of Local Governance</h2>
+          <label>
+            <input type="radio" name="local-governance" value="4">Local governance structures are largely disregarded by foreign entities in negotiations. </label>
+          <label>
+            <input type="radio" name="local-governance" value="3">Significant pressure is applied for local governance to align with foreign interests. </label>
+          <label>
+            <input type="radio" name="local-governance" value="2">Local governance is recognized but influenced by foreign agendas. </label>
+          <label>
+            <input type="radio" name="local-governance" value="1">Local governance functions independently with some foreign consultation. </label>
+          <label>
+            <input type="radio" name="local-governance" value="0">Local governance has complete autonomy. </label>
+        </div>
+        <div class="question">
+          <h2>Education Systems Favoring Foreign Ideologies</h2>
+          <label>
+            <input type="radio" name="education-systems" value="4">Educational materials are completely about foreign history and culture. </label>
+          <label>
+            <input type="radio" name="education-systems" value="3">Curricula are primarily centered on foreign history and culture. </label>
+          <label>
+            <input type="radio" name="education-systems" value="2">Foreign ideologies are significantly included in educational materials. </label>
+          <label>
+            <input type="radio" name="education-systems" value="1">A balance exists between foreign and local content in education. </label>
+          <label>
+            <input type="radio" name="education-systems" value="0">Local history and culture are emphasized with minimal foreign biases. </label>
+        </div>
+        <div class="question">
+          <h2>Healthcare Dependency</h2>
+          <label>
+            <input type="radio" name="healthcare-dependency" value="4">The healthcare system relies mostly on foreign NGOs and companies for resources. </label>
+          <label>
+            <input type="radio" name="healthcare-dependency" value="3">A considerable portion of healthcare funding comes from foreign sources. </label>
+          <label>
+            <input type="radio" name="healthcare-dependency" value="2">Moderate reliance exists on foreign entities for healthcare solutions. </label>
+          <label>
+            <input type="radio" name="healthcare-dependency" value="1">The healthcare system is mostly independent but receives some foreign aid. </label>
+          <label>
+            <input type="radio" name="healthcare-dependency" value="0">Health services are entirely local and self-sufficient. </label>
+        </div>
+        <div class="question">
+          <h2>Cultural Erosion</h2>
+          <label>
+            <input type="radio" name="cultural-erosion" value="4">Local customs and practices are being significantly undermined by foreign influences. </label>
+          <label>
+            <input type="radio" name="cultural-erosion" value="3">There are noticeable shifts in cultural practices toward foreign norms. </label>
+          <label>
+            <input type="radio" name="cultural-erosion" value="2">A mix of local and foreign practices exists with no clear dominance. </label>
+          <label>
+            <input type="radio" name="cultural-erosion" value="1">Local customs are largely preserved with minimal foreign influence. </label>
+          <label>
+            <input type="radio" name="cultural-erosion" value="0">Cultural practices are entirely local and resist foreign influence. </label>
+        </div>
+        <div class="question">
+          <h2>Media Ownership</h2>
+          <label>
+            <input type="radio" name="media-ownership" value="4">A significant portion of local media is owned or heavily influenced by foreign entities. </label>
+          <label>
+            <input type="radio" name="media-ownership" value="3">Some major media outlets are affiliated with foreign ownership or interests. </label>
+          <label>
+            <input type="radio" name="media-ownership" value="2">Local and foreign media co-exist with no clear dominance. </label>
+          <label>
+            <input type="radio" name="media-ownership" value="1">The majority of media outlets are locally owned and operated. </label>
+          <label>
+            <input type="radio" name="media-ownership" value="0">All media is locally owned with no foreign influence and/or promotes indigenous content and perspectives. </label>
+        </div>
+        <button id="submit-btn">Submit</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
